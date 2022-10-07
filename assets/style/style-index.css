@@ -55,6 +55,10 @@
     margin: 10px;
 }
 
+.content div iframe{
+    max-width: 560px;
+}
+
 .content .video1{
     max-width: 560px;
     font-size: 18px;
