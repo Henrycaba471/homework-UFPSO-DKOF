@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::after{
+    box-sizing: inherit;
+}
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp7172825.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/*Header styles */
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(64, 147, 180, 0.5);
+    color: rgb(245, 241, 241);
+}
+.header .logo h1,span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.header .logo span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color:rgba(245, 241, 241, 0.582);
+    font-weight: 700;
+}
+.header nav{
+    padding-right: 20px;
+}
+.header .nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 5px;
+    padding: 7px;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.header .nav a:hover{
+    background-color: rgba(253, 253, 253, 0.829);
+    color:rgb(64, 147, 180);
+}
+
+.content-films{
+    min-height: 90vh;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(64, 147, 180, 0.459);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+.footer .copyrigth{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.footer .redes a{
+    margin: 0 10px;
+    text-decoration: none;
+}
