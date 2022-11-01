@@ -61,9 +61,39 @@ body{
     color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
+.content-films h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content-films h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-films iframe{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.content-films img{
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.content-films p{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(143, 134, 134, 0.253);
+    border-radius: 5px;
+    padding: 10px;
+}
 
 .footer{
     padding: 10px;
